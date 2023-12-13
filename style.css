@@ -1,0 +1,100 @@
+body{
+    background-color:#000000;
+    color: #fff;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -8rem;
+   } 
+   
+   .wrapper{
+    border: 0px  white;
+    /* box-shadow: 3px 5px #37e634, 4px 6px #de1616e8, -3px -5px rgb(243 12 51), -4px -6px rgb(29 233 39); */
+    border-radius: 90px;
+    text-align: center;
+    margin-top: 7rem;
+    height: 18rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 4rem;
+    background-color: #2d2f30;
+   }
+   button{
+    display: inline-block;
+    margin-top: 1rem;
+    position: relative;
+    top: 4rem;
+    padding: 0.4rem 2rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: auto;
+    background-color: #048dac;
+    text-shadow:  2px 3px 1px rgb(209, 209, 209) , 2px 3px 1px rgb(204, 163, 163);
+    }
+    button:hover{
+        background-color:  #017994;
+    }
+    
+   span{
+    padding: 0.25rem;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    /* text-shadow: 4px 2px 8px yellow; */
+    color: #048dac;
+   }
+   marquee{
+    font-size: 1.8rem;
+    text-shadow:  2px 3px 1px #129cbb;
+    color:#17D4FE;
+}
+.div-1{
+    width: 100%;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.div-2{
+    width: 100%;
+}
+
+#dateContainer{
+    margin-top: 3rem;
+    /* position: relative;
+    top: 4rem; */
+    font-size: xx-large;
+    font-family: fantasy;
+    text-shadow:  1px 2px 1px #129cbb;
+    color:#17D4FE;
+}
+
+@media(max-width:375px){
+    .div-1{
+        width: max-content;
+        margin-left: 5rem;
+        font-size: xx-large;
+    }
+    
+}
+@media(max-width:320px){
+    .div-1{
+        
+        position: relative;
+        right: 1rem
+    }
+    
+        
+}
+
+ 
